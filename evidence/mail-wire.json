@@ -1,0 +1,101 @@
+{
+  "fixture": "loopback only; ephemeral trusted certificate; synthetic credentials",
+  "checks": [
+    {
+      "protocol": "imap",
+      "startTLS": false,
+      "operation": "STATUS INBOX (UIDVALIDITY)",
+      "passed": true
+    },
+    {
+      "protocol": "imap",
+      "startTLS": false,
+      "operation": "STATUS INBOX (UNSEEN MESSAGES)",
+      "passed": true
+    },
+    {
+      "protocol": "imap",
+      "startTLS": false,
+      "operation": "CREATE ClientsFixture",
+      "passed": true
+    },
+    {
+      "protocol": "imap",
+      "startTLS": false,
+      "operation": "LIST \\\"\\\" \\\"*\\\"",
+      "passed": true
+    },
+    {
+      "protocol": "imap",
+      "startTLS": false,
+      "operation": "UID SEARCH ALL",
+      "passed": true
+    },
+    {
+      "protocol": "imap",
+      "startTLS": false,
+      "operation": "UID FETCH 7 (UID BODY.PEEK[])",
+      "passed": true
+    },
+    {
+      "protocol": "imap",
+      "startTLS": false,
+      "operation": "UID SEARCH ALL",
+      "passed": true
+    },
+    {
+      "protocol": "imap",
+      "startTLS": true,
+      "operation": "UID FETCH 7 (UID BODY.PEEK[])",
+      "passed": true
+    },
+    {
+      "protocol": "imap",
+      "startTLS": false,
+      "operation": "reject untrusted TLS",
+      "passed": true
+    },
+    {
+      "protocol": "imap",
+      "startTLS": false,
+      "operation": "upload",
+      "passed": true
+    },
+    {
+      "protocol": "imap",
+      "startTLS": true,
+      "operation": "UID SEARCH ALL",
+      "passed": true
+    },
+    {
+      "protocol": "pop3",
+      "startTLS": false,
+      "operation": "UIDL",
+      "passed": true
+    },
+    {
+      "protocol": "pop3",
+      "startTLS": false,
+      "operation": "TOP 1 0",
+      "passed": true
+    },
+    {
+      "protocol": "pop3",
+      "startTLS": true,
+      "operation": "RETR 1",
+      "passed": true
+    },
+    {
+      "protocol": "smtp",
+      "startTLS": false,
+      "operation": "NOOP",
+      "passed": true
+    },
+    {
+      "protocol": "smtp",
+      "startTLS": true,
+      "operation": "upload",
+      "passed": true
+    }
+  ]
+}

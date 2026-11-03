@@ -1,0 +1,5 @@
+The following is a diff from the previous accessibility tree for Window: "Órbita" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 100-101
+~					94 text 2 tarefas · todas as listas selecionadas
+~		69 text Demonstração: tarefa alterada apenas nos dados fictícios.
+The focused UI element is 0 standard window Órbita, Secondary Actions: Raise, ID: SwiftUI.WindowGroup<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<OrbitaMail.RootView, SwiftUI._EnvironmentKeyWritingModifier<Swift.Optional<OrbitaMail.AppModel>>>, SwiftUI._FlexFrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<Swift.Optional<SwiftUI.AnyShapeStyle>>>, SwiftUI._EnvironmentKeyWritingModifier<Foundation.Locale>>, SwiftUI._TaskModifier2>>-1-AppWindow-1

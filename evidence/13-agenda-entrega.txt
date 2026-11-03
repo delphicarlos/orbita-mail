@@ -1,0 +1,97 @@
+Window: "Órbita", App: Órbita.
+0 standard window Órbita, Secondary Actions: Raise, ID: SwiftUI.WindowGroup<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<OrbitaMail.RootView, SwiftUI._EnvironmentKeyWritingModifier<Swift.Optional<OrbitaMail.AppModel>>>, SwiftUI._FlexFrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<Swift.Optional<SwiftUI.AnyShapeStyle>>>, SwiftUI._EnvironmentKeyWritingModifier<Foundation.Locale>>, SwiftUI._TaskModifier2>>-1-AppWindow-1
+	1 container
+		2 image Description: Dois Tubos De Ensaio, ID: testtube.2
+		3 text Demonstração — dados fictícios Nenhum email ou convite real será enviado.
+		4 button Usar contas reais
+		5 split group
+			6 container
+				7 image Description: Círculos Dispostos Em Uma Grade Hexagonal, Preenchidos, ID: circle.hexagongrid.fill
+				8 text Órbita Seu dia, em conjunto
+				9 scroll area Secondary Actions: Scroll Up, Scroll Down
+					10 button Email
+					11 button Agenda
+					12 button Tarefas
+					13 text Contas
+					14 button Todas as contas
+					15 button Description: Ana · Atlas, ana@atlas.example, Help: ana@atlas.example
+					16 button Description: Ana · Lume, ana@lume.example, Help: ana@lume.example
+					17 button Description: Ana · Pessoal, ana@pessoal.example, Help: ana@pessoal.example
+					18 button Adicionar conta
+					19 text Calendários e listas
+					20 checkbox Description: Calendário, Ana · Lume, Value: 1
+					21 checkbox Description: Calendário, Ana · Atlas, Value: 1
+					22 checkbox Description: Calendário, Ana · Pessoal, Value: 1
+					23 checkbox Description: Minhas tarefas, Ana · Lume, Value: 1
+					24 checkbox Description: Minhas tarefas, Ana · Atlas, Value: 1
+					25 checkbox Description: Minhas tarefas, Ana · Pessoal, Value: 1
+					26 scroll bar (settable, float) 0
+						27 value indicator (settable, float) 0
+						28 increment arrow button
+						29 decrement arrow button
+						30 increment page button
+						31 decrement page button
+				32 image Description: Disco Rígido Interno, ID: internaldrive
+				33 text Ambiente de demonstração
+			34 splitter (disabled, settable, float) 270
+			35 container
+				36 text novembro de 2026
+				37 button Período anterior
+				38 button Hoje
+				39 button Próximo período
+				40 Exibição
+					41 radio button Description: Dia, Value: 0
+					42 radio button Description: Semana, Value: 1
+					43 radio button Description: Mês, Value: 0
+					44 radio button Description: Agenda, Value: 0
+				45 text Agenda unificada · todas as contas 3 contas 3 calendários 3 listas de tarefas Dados fictícios
+				46 split group
+					47 container
+						48 text dom. seg. ter. qua. qui. sex. sáb. BRT 1 2 3 4 5 6 7 Dia
+						49 button Description: Revisar materiais da reunião, Help: Revisar materiais da reunião · ana@lume.example
+						50 button Description: Finalizar proposta comercial, Help: Finalizar proposta comercial · ana@atlas.example
+						51 scroll area Secondary Actions: Scroll Up, Scroll Down
+							52 text 00
+							53 button Alinhamento da semana · ana@lume.example
+							54 button Alinhamento da semana · ana@atlas.example
+							55 button Revisão da proposta · ana@lume.example
+							56 button Compromisso pessoal · ana@pessoal.example
+							57 button Planejamento do próximo ciclo · ana@atlas.example
+							58 text 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+							59 scroll bar (settable, float) 0.4681818181818182
+								60 value indicator (settable, float) 0.4681818181818182
+								61 increment arrow button
+								62 decrement arrow button
+								63 increment page button
+								64 decrement page button
+					65 splitter (disabled, settable, float) 768
+					66 container
+						67 text Tarefas do período Todas as listas selecionadas
+						68 scroll area
+							69 button Description: Concluir Revisar materiais da reunião, ID: circle
+							70 button Description: Revisar materiais da reunião, Ana · Lume, 3 de nov. de 2026, Help: ana@lume.example
+							71 button Description: Concluir Finalizar proposta comercial, ID: circle
+							72 button Description: Finalizar proposta comercial, Ana · Atlas, 3 de nov. de 2026, Help: ana@atlas.example
+							73 text Pendências sem data
+							74 button Description: Concluir Organizar leituras da semana, ID: circle
+							75 button Description: Organizar leituras da semana, Ana · Pessoal, Help: ana@pessoal.example
+	76 toolbar
+		77 text Agenda
+		78 button Description: Fontes e sincronização, Secondary Actions: Increment, Decrement, Delete, Cancel, Move previous, Move next, Remove from toolbar
+		79 button (disabled) Description: Sincronizar, Secondary Actions: Increment, Decrement, Delete, Cancel, Move previous, Move next, Remove from toolbar
+		80 button Description: Novo email, Secondary Actions: Increment, Decrement, Delete, Cancel, Move previous, Move next, Remove from toolbar
+		81 button Description: Contas, Secondary Actions: Increment, Decrement, Delete, Cancel, Move previous, Remove from toolbar
+	82 close button
+	83 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	84 minimize button
+	85 text Órbita
+86 menu bar
+	87 Órbita
+	88 File
+	89 Edit
+	90 View
+	91 Contas
+	92 Window
+	93 Help
+
+The focused UI element is 0 standard window Órbita, Secondary Actions: Raise, ID: SwiftUI.WindowGroup<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<OrbitaMail.RootView, SwiftUI._EnvironmentKeyWritingModifier<Swift.Optional<OrbitaMail.AppModel>>>, SwiftUI._FlexFrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<Swift.Optional<SwiftUI.AnyShapeStyle>>>, SwiftUI._EnvironmentKeyWritingModifier<Foundation.Locale>>, SwiftUI._TaskModifier2>>-1-AppWindow-1

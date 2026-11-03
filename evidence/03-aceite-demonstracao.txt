@@ -1,0 +1,8 @@
+The following is a diff from the previous accessibility tree for Window: "Órbita" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~							53 scroll bar (settable, float) 0.6793478260869565
+~								54 value indicator (settable, float) 0.6793478260869565
+~						91 text Revisão da proposta ana@lume.example Calendário 3 de novembro de 2026 14:00 – 15:00 Sala de projetos Aceito Há outro compromisso neste horário Responder ao convite
++		96 image Description: Informações, ID: info.circle
++		97 text Demonstração: resposta alterada apenas nos dados fictícios. Nenhum convite foi respondido.
++		98 button Description: Fechar aviso, ID: xmark
+The focused UI element is 0 standard window Órbita, Secondary Actions: Raise, ID: SwiftUI.WindowGroup<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<OrbitaMail.RootView, SwiftUI._EnvironmentKeyWritingModifier<Swift.Optional<OrbitaMail.AppModel>>>, SwiftUI._FlexFrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<Swift.Optional<SwiftUI.AnyShapeStyle>>>, SwiftUI._EnvironmentKeyWritingModifier<Foundation.Locale>>, SwiftUI._TaskModifier2>>-1-AppWindow-1

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "accounts": [
+    {"email":"ana@atlas.example","displayName":"Ana · Atlas","provider":"microsoft","sourceKind":"Exchange"},
+    {"email":"ana@lume.example","displayName":"Ana · Lume","provider":"google","sourceKind":"IMAP"}
+  ],
+  "presets": [
+    {"name":"Assinatura Atlas","text":"Atenciosamente,\nAna\nAtlas","kind":"signature","accountEmail":"ana@atlas.example"},
+    {"name":"Retorno de reunião","subject":"Próximos passos","text":"Olá,\n\nSeguem os próximos passos combinados na reunião.\n\nObrigada.","kind":"template"}
+  ]
+}

@@ -1,0 +1,186 @@
+Building for debugging...
+[1 / 1]
+[2 / 11] OrbitaCore
+[5 / 14] OrbitaCore
+[9 / 19] OrbitaCore
+[15 / 19] OrbitaCoreTests-product
+[17 / 20] OrbitaMail-product
+[18 / 20] OrbitaMail-product
+[20 / 22] OrbitaMail-product
+Build complete! (3,10 seg)
+Test Suite 'All tests' started at 2026-11-03 16:46:11.152.
+Test Suite 'OrbitaCoreTests.xctest' started at 2026-11-03 16:46:11.152.
+Test Suite 'CoreTests' started at 2026-11-03 16:46:11.152.
+Test Case '-[OrbitaCoreTests.CoreTests testCalendarKeepsDateOnlyAndUndatedTasks]' started.
+Test Case '-[OrbitaCoreTests.CoreTests testCalendarKeepsDateOnlyAndUndatedTasks]' passed (0.002 seconds).
+Test Case '-[OrbitaCoreTests.CoreTests testFormEscapesPlusAndPKCEAuthorizationUsesFixedOrigin]' started.
+Test Case '-[OrbitaCoreTests.CoreTests testFormEscapesPlusAndPKCEAuthorizationUsesFixedOrigin]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.CoreTests testHTMLDisablesScriptsRemoteContentAndPrivilegedLinks]' started.
+Test Case '-[OrbitaCoreTests.CoreTests testHTMLDisablesScriptsRemoteContentAndPrivilegedLinks]' passed (0.003 seconds).
+Test Case '-[OrbitaCoreTests.CoreTests testMailValidationRejectsEmptyRecipientsAndOversizedAttachments]' started.
+Test Case '-[OrbitaCoreTests.CoreTests testMailValidationRejectsEmptyRecipientsAndOversizedAttachments]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.CoreTests testMicrosoftAllDayPreservesOriginalLocalDateAcrossUTC]' started.
+Test Case '-[OrbitaCoreTests.CoreTests testMicrosoftAllDayPreservesOriginalLocalDateAcrossUTC]' passed (0.001 seconds).
+Test Case '-[OrbitaCoreTests.CoreTests testMicrosoftDraftWithoutReceivedDateUsesCreationDate]' started.
+Test Case '-[OrbitaCoreTests.CoreTests testMicrosoftDraftWithoutReceivedDateUsesCreationDate]' passed (0.001 seconds).
+Test Case '-[OrbitaCoreTests.CoreTests testMIMEEncodesUnicodeAndPreventsHeaderInjection]' started.
+Test Case '-[OrbitaCoreTests.CoreTests testMIMEEncodesUnicodeAndPreventsHeaderInjection]' passed (0.001 seconds).
+Test Case '-[OrbitaCoreTests.CoreTests testOAuthStatePathAndDuplicateParametersAreRejected]' started.
+Test Case '-[OrbitaCoreTests.CoreTests testOAuthStatePathAndDuplicateParametersAreRejected]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.CoreTests testOverlappingAccountsHaveSeparateCalendarColumns]' started.
+Test Case '-[OrbitaCoreTests.CoreTests testOverlappingAccountsHaveSeparateCalendarColumns]' passed (0.001 seconds).
+Test Case '-[OrbitaCoreTests.CoreTests testPKCEKnownRFCVector]' started.
+Test Case '-[OrbitaCoreTests.CoreTests testPKCEKnownRFCVector]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.CoreTests testProviderRejectsForeignOriginsAndCredentialsInURLs]' started.
+Test Case '-[OrbitaCoreTests.CoreTests testProviderRejectsForeignOriginsAndCredentialsInURLs]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.CoreTests testScopedIDsCannotCollideAcrossAccountsAndSeparators]' started.
+Test Case '-[OrbitaCoreTests.CoreTests testScopedIDsCannotCollideAcrossAccountsAndSeparators]' passed (0.001 seconds).
+Test Case '-[OrbitaCoreTests.CoreTests testTimedEventsRequireAnExplicitTimezone]' started.
+Test Case '-[OrbitaCoreTests.CoreTests testTimedEventsRequireAnExplicitTimezone]' passed (0.002 seconds).
+Test Suite 'CoreTests' passed at 2026-11-03 16:46:11.168.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.015 (0.016) seconds
+Test Suite 'ImportTests' started at 2026-11-03 16:46:11.168.
+Test Case '-[OrbitaCoreTests.ImportTests testAccountsAreDeduplicatedWithoutGrantingAuthentication]' started.
+Test Case '-[OrbitaCoreTests.ImportTests testAccountsAreDeduplicatedWithoutGrantingAuthentication]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.ImportTests testCredentialsAreNotCopiedFromAnImportFile]' started.
+Test Case '-[OrbitaCoreTests.ImportTests testCredentialsAreNotCopiedFromAnImportFile]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.ImportTests testImportedIdentityMustMatchTheAuthorizedProviderProfile]' started.
+Test Case '-[OrbitaCoreTests.ImportTests testImportedIdentityMustMatchTheAuthorizedProviderProfile]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.ImportTests testInvalidVersionEmptyImportAndOversizedFilesAreRejected]' started.
+Test Case '-[OrbitaCoreTests.ImportTests testInvalidVersionEmptyImportAndOversizedFilesAreRejected]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.ImportTests testOAuthHintKeepsSelectedImportedEmail]' started.
+Test Case '-[OrbitaCoreTests.ImportTests testOAuthHintKeepsSelectedImportedEmail]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.ImportTests testPresetIDsAreStableAndModelsKeepTheirAccountAssociation]' started.
+Test Case '-[OrbitaCoreTests.ImportTests testPresetIDsAreStableAndModelsKeepTheirAccountAssociation]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.ImportTests testProviderDetectionDoesNotGuessGoogleFromCustomDomain]' started.
+Test Case '-[OrbitaCoreTests.ImportTests testProviderDetectionDoesNotGuessGoogleFromCustomDomain]' passed (0.000 seconds).
+Test Suite 'ImportTests' passed at 2026-11-03 16:46:11.170.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'MailOrganizationTests' started at 2026-11-03 16:46:11.170.
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testAutoReplyConcurrentChangePreventsOverwrite]' started.
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testAutoReplyConcurrentChangePreventsOverwrite]' passed (0.041 seconds).
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testAutoReplyDatesAndExternalBodiesAreValidated]' started.
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testAutoReplyDatesAndExternalBodiesAreValidated]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testAutoReplyTimeoutReconcilesWithReadWithoutRepeatingWrite]' started.
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testAutoReplyTimeoutReconcilesWithReadWithoutRepeatingWrite]' passed (0.032 seconds).
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testCustomFolderMessagesAndCrossAccountMovesUseOriginalAccount]' started.
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testCustomFolderMessagesAndCrossAccountMovesUseOriginalAccount]' passed (0.021 seconds).
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testEWSRuleCreationNeverRemovesOutlookClientRules]' started.
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testEWSRuleCreationNeverRemovesOutlookClientRules]' passed (0.001 seconds).
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testGoogleFolderCreationDoesNotCreateOrSendMessages]' started.
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testGoogleFolderCreationDoesNotCreateOrSendMessages]' passed (0.019 seconds).
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testGoogleMoveRetainsUnrelatedLabelsAndRemovesSource]' started.
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testGoogleMoveRetainsUnrelatedLabelsAndRemovesSource]' passed (0.017 seconds).
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testGoogleRuleCreatesServerFilterForFutureMail]' started.
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testGoogleRuleCreatesServerFilterForFutureMail]' passed (0.030 seconds).
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testGoogleUnreadCountUsesServerTotalRatherThanLoadedPage]' started.
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testGoogleUnreadCountUsesServerTotalRatherThanLoadedPage]' passed (0.024 seconds).
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testMailManagementScopesAreOptionalAndRequireExplicitOptIn]' started.
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testMailManagementScopesAreOptionalAndRequireExplicitOptIn]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testMicrosoftAutoReplyEscapesMessageAndKeepsExternalAudienceDisabled]' started.
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testMicrosoftAutoReplyEscapesMessageAndKeepsExternalAudienceDisabled]' passed (0.032 seconds).
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testOldConsentNeverSendsMailSettingsRequests]' started.
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testOldConsentNeverSendsMailSettingsRequests]' passed (0.018 seconds).
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testRuleRequiresConditionsAndNeverForwardsToThirdParties]' started.
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testRuleRequiresConditionsAndNeverForwardsToThirdParties]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testSignatureIsASeparateDraftSnapshotAndAppearsOnceInMIME]' started.
+Test Case '-[OrbitaCoreTests.MailOrganizationTests testSignatureIsASeparateDraftSnapshotAndAppearsOnceInMIME]' passed (0.001 seconds).
+Test Suite 'MailOrganizationTests' passed at 2026-11-03 16:46:11.408.
+	 Executed 14 tests, with 0 failures (0 unexpected) in 0.237 (0.238) seconds
+Test Suite 'ProviderTests' started at 2026-11-03 16:46:11.408.
+Test Case '-[OrbitaCoreTests.ProviderTests testAlreadyAcceptedInvitationDoesNotSendAnotherResponse]' started.
+Test Case '-[OrbitaCoreTests.ProviderTests testAlreadyAcceptedInvitationDoesNotSendAnotherResponse]' passed (0.022 seconds).
+Test Case '-[OrbitaCoreTests.ProviderTests testCalendarViewRequestsExpandedOccurrencesWithinExactWindow]' started.
+Test Case '-[OrbitaCoreTests.ProviderTests testCalendarViewRequestsExpandedOccurrencesWithinExactWindow]' passed (0.021 seconds).
+Test Case '-[OrbitaCoreTests.ProviderTests testConcurrentRSVPVersionConflictDoesNotRetryWrite]' started.
+Test Case '-[OrbitaCoreTests.ProviderTests testConcurrentRSVPVersionConflictDoesNotRetryWrite]' passed (0.023 seconds).
+Test Case '-[OrbitaCoreTests.ProviderTests testGoogleEnumeratesAllTaskPagesIncludingHiddenAndAssigned]' started.
+Test Case '-[OrbitaCoreTests.ProviderTests testGoogleEnumeratesAllTaskPagesIncludingHiddenAndAssigned]' passed (0.022 seconds).
+Test Case '-[OrbitaCoreTests.ProviderTests testGoogleRSVPPreservesOtherAttendeesAndUsesETag]' started.
+Test Case '-[OrbitaCoreTests.ProviderTests testGoogleRSVPPreservesOtherAttendeesAndUsesETag]' passed (0.024 seconds).
+Test Case '-[OrbitaCoreTests.ProviderTests testMicrosoftCalendarEnumerationFollowsEveryPage]' started.
+Test Case '-[OrbitaCoreTests.ProviderTests testMicrosoftCalendarEnumerationFollowsEveryPage]' passed (0.017 seconds).
+Test Case '-[OrbitaCoreTests.ProviderTests testMicrosoftRejectsCredentialExfiltrationViaNextLink]' started.
+Test Case '-[OrbitaCoreTests.ProviderTests testMicrosoftRejectsCredentialExfiltrationViaNextLink]' passed (0.020 seconds).
+Test Case '-[OrbitaCoreTests.ProviderTests testMicrosoftSendBuildsRecipientsAndDoesNotRetryAmbiguousPost]' started.
+Test Case '-[OrbitaCoreTests.ProviderTests testMicrosoftSendBuildsRecipientsAndDoesNotRetryAmbiguousPost]' passed (0.020 seconds).
+Test Case '-[OrbitaCoreTests.ProviderTests testMicrosoftSendIncludesSignatureSnapshotExactlyOnce]' started.
+Test Case '-[OrbitaCoreTests.ProviderTests testMicrosoftSendIncludesSignatureSnapshotExactlyOnce]' passed (0.017 seconds).
+Test Case '-[OrbitaCoreTests.ProviderTests testRateLimitBlocksSubsequentCallsUntilRetryAfter]' started.
+Test Case '-[OrbitaCoreTests.ProviderTests testRateLimitBlocksSubsequentCallsUntilRetryAfter]' passed (0.019 seconds).
+Test Case '-[OrbitaCoreTests.ProviderTests testRSVPTimeoutReconcilesWithoutSendingAgain]' started.
+Test Case '-[OrbitaCoreTests.ProviderTests testRSVPTimeoutReconcilesWithoutSendingAgain]' passed (0.028 seconds).
+Test Case '-[OrbitaCoreTests.ProviderTests testTaskCompletionUsesOriginalListAndConfirmsRemoteState]' started.
+Test Case '-[OrbitaCoreTests.ProviderTests testTaskCompletionUsesOriginalListAndConfirmsRemoteState]' passed (0.019 seconds).
+Test Case '-[OrbitaCoreTests.ProviderTests testWrongAccountNeverMakesRemoteWrite]' started.
+Test Case '-[OrbitaCoreTests.ProviderTests testWrongAccountNeverMakesRemoteWrite]' passed (0.018 seconds).
+Test Suite 'ProviderTests' passed at 2026-11-03 16:46:11.679.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.269 (0.270) seconds
+Test Suite 'ServerProviderTests' started at 2026-11-03 16:46:11.679.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testCalDAVAllDayDurationAndRecurringInvitationLimit]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testCalDAVAllDayDurationAndRecurringInvitationLimit]' passed (0.018 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testCalDAVConflictNeverRepeatsWriteOrForwardsCredentials]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testCalDAVConflictNeverRepeatsWriteOrForwardsCredentials]' passed (0.021 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testCalDAVResponsePreservesParticipantsAndUsesETag]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testCalDAVResponsePreservesParticipantsAndUsesETag]' passed (0.027 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testCalDAVTaskCompletionPreservesOtherPropertiesAndConfirms]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testCalDAVTaskCompletionPreservesOtherPropertiesAndConfirms]' passed (0.027 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testCalendarRoundTripPreservesUnknownPropertiesAndUnicodeFolding]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testCalendarRoundTripPreservesUnknownPropertiesAndUnicodeFolding]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testCurlConfigRequiresTLSAndEscapesStdinCredentials]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testCurlConfigRequiresTLSAndEscapesStdinCredentials]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testEWSInvitationAcceptWritesOnceAndConfirmsRemoteResponse]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testEWSInvitationAcceptWritesOnceAndConfirmsRemoteResponse]' passed (0.025 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testEWSMailPageLoadsFullAddressesForReplies]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testEWSMailPageLoadsFullAddressesForReplies]' passed (0.021 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testEWSUsesNTLMAndVersionedNeverOverwriteUpdates]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testEWSUsesNTLMAndVersionedNeverOverwriteUpdates]' passed (0.020 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testIMAPLiteralFramingIgnoresFakeTaggedResponsesAndLateUID]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testIMAPLiteralFramingIgnoresFakeTaggedResponsesAndLateUID]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testIMAPMailboxNamesRoundTripAndStableIdentity]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testIMAPMailboxNamesRoundTripAndStableIdentity]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testIMAPPageUsesPeekAndRejectsChangedMailboxBeforeSearch]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testIMAPPageUsesPeekAndRejectsChangedMailboxBeforeSearch]' passed (0.025 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testLegacyOAuthAccountDecodesWithoutServerConfiguration]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testLegacyOAuthAccountDecodesWithoutServerConfiguration]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testMalformedMIMEAndOversizedLiteralAreRejected]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testMalformedMIMEAndOversizedLiteralAreRejected]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testMIMEParsesEncodingAlternativeAndAttachmentBytes]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testMIMEParsesEncodingAlternativeAndAttachmentBytes]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testPOPHeaderFallbackReadsWithoutDeleting]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testPOPHeaderFallbackReadsWithoutDeleting]' passed (0.023 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testPOPRejectsChangedSequenceWithoutDeletingMessages]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testPOPRejectsChangedSequenceWithoutDeletingMessages]' passed (0.026 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testServerConfigurationRejectsCredentialsInURLsAndInvalidHosts]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testServerConfigurationRejectsCredentialsInURLsAndInvalidHosts]' passed (0.000 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testSMTPBccIsEnvelopeOnlyAndSentCopyFailureIsUncertain]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testSMTPBccIsEnvelopeOnlyAndSentCopyFailureIsUncertain]' passed (0.040 seconds).
+Test Case '-[OrbitaCoreTests.ServerProviderTests testXMLRejectsEntityExpansion]' started.
+Test Case '-[OrbitaCoreTests.ServerProviderTests testXMLRejectsEntityExpansion]' passed (0.000 seconds).
+Test Suite 'ServerProviderTests' passed at 2026-11-03 16:46:11.957.
+	 Executed 20 tests, with 0 failures (0 unexpected) in 0.277 (0.278) seconds
+Test Suite 'StoreTests' started at 2026-11-03 16:46:11.957.
+Test Case '-[OrbitaCoreTests.StoreTests testCustomFolderCacheIsIndependentFromInboxAndOtherAccounts]' started.
+Test Case '-[OrbitaCoreTests.StoreTests testCustomFolderCacheIsIndependentFromInboxAndOtherAccounts]' passed (0.029 seconds).
+Test Case '-[OrbitaCoreTests.StoreTests testFolderSnapshotCannotReplaceAnotherAccountsFolders]' started.
+Test Case '-[OrbitaCoreTests.StoreTests testFolderSnapshotCannotReplaceAnotherAccountsFolders]' passed (0.022 seconds).
+Test Case '-[OrbitaCoreTests.StoreTests testImportedAccountsStayPendingWithoutCreatingAuthenticatedAccounts]' started.
+Test Case '-[OrbitaCoreTests.StoreTests testImportedAccountsStayPendingWithoutCreatingAuthenticatedAccounts]' passed (0.022 seconds).
+Test Case '-[OrbitaCoreTests.StoreTests testInvalidCrossAccountMailBatchRollsBackWithoutLosingPreviousCache]' started.
+Test Case '-[OrbitaCoreTests.StoreTests testInvalidCrossAccountMailBatchRollsBackWithoutLosingPreviousCache]' passed (0.039 seconds).
+Test Case '-[OrbitaCoreTests.StoreTests testRemovingSourceClearsOnlyThatSourcesAgenda]' started.
+Test Case '-[OrbitaCoreTests.StoreTests testRemovingSourceClearsOnlyThatSourcesAgenda]' passed (0.023 seconds).
+Test Case '-[OrbitaCoreTests.StoreTests testReopenPersistsAccountsDraftsAndIndependentSources]' started.
+Test Case '-[OrbitaCoreTests.StoreTests testReopenPersistsAccountsDraftsAndIndependentSources]' passed (0.022 seconds).
+Test Case '-[OrbitaCoreTests.StoreTests testSnapshotsRemoveCancelledOccurrenceOnlyInSuccessfulWindowAndSource]' started.
+Test Case '-[OrbitaCoreTests.StoreTests testSnapshotsRemoveCancelledOccurrenceOnlyInSuccessfulWindowAndSource]' passed (0.023 seconds).
+Test Suite 'StoreTests' passed at 2026-11-03 16:46:12.139.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.181 (0.182) seconds
+Test Suite 'OrbitaCoreTests.xctest' passed at 2026-11-03 16:46:12.139.
+	 Executed 74 tests, with 0 failures (0 unexpected) in 0.980 (0.986) seconds
+Test Suite 'All tests' passed at 2026-11-03 16:46:12.139.
+	 Executed 74 tests, with 0 failures (0 unexpected) in 0.980 (0.987) seconds
+◇ Test run started.
+↳ Testing Library Version: 2084
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

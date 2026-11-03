@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-03",
+  "version": "0.3.0",
+  "build": 3,
+  "architecture": "arm64",
+  "signature": "local ad-hoc; not notarized",
+  "tests": {
+    "xctest": 57,
+    "failures": 0,
+    "loopback_transport_checks": 14,
+    "providers": "synthetic fixtures + loopback TLS; no additional real server"
+  },
+  "real_validation": {
+    "microsoft_google": "prior mail/RSVP/tasks E2E in 0.2; read-only sync regression in 0.3",
+    "imap_pop3_ews_caldav": "pending real server from IT"
+  },
+  "artifacts": [
+    {
+      "path": "build/Órbita.app/Contents/MacOS/OrbitaMail",
+      "bytes": 5238752,
+      "sha256": "b43533beb9b9c0ddbe7ed83e0621655da7fc7949d1b37f854e35346f991a77cb"
+    },
+    {
+      "path": "build/Orbita-Mac-arm64.zip",
+      "bytes": 1473660,
+      "sha256": "5ba40b4de5004441cb492ba89ef878968b9a6a42d9068eab460652b9f05a0042"
+    },
+    {
+      "path": "evidence/tests-providers.log",
+      "bytes": 14983,
+      "sha256": "862ac1c259015cf562f36d95420d91c363a23dd0677e0872df48d4079dc9bb5f"
+    },
+    {
+      "path": "evidence/mail-wire.json",
+      "bytes": 1815,
+      "sha256": "6ea0226de2658af5f5ab09861dff8cb95030af0f833c122f00540c165e9b2f10"
+    },
+    {
+      "path": "evidence/build-release.log",
+      "bytes": 281,
+      "sha256": "94a6abeb7bc1f64081a9356320e29c3829661187b01c5c3b8fb5e8e614e00dd8"
+    },
+    {
+      "path": "evidence/providers/contas-0.3.png",
+      "bytes": 180843,
+      "sha256": "8975f0d3f900a6eec11e125e8e6767ea97e57de662c9bdc7e07c3d4e80043b73"
+    },
+    {
+      "path": "evidence/providers/exchange-0.3.png",
+      "bytes": 171023,
+      "sha256": "48b9e38882bbf33b6a6c29c7ba1ba00511e3fbd365ce8f145906cb0ac463c711"
+    },
+    {
+      "path": "evidence/providers/imap-0.3.png",
+      "bytes": 178902,
+      "sha256": "53c10ea0c60068056d08d5ab81a7c3b0706dc565004cebaaab61b27a47531222"
+    },
+    {
+      "path": "evidence/providers/imap-validacao-local.png",
+      "bytes": 76348,
+      "sha256": "162e7ce36bc5c0d4bc4582ba358114cdbbdaade75598a8ca923452cc52d4e967"
+    },
+    {
+      "path": "evidence/providers/pop3.png",
+      "bytes": 83062,
+      "sha256": "7623f4c2f9501ae5f1df35704ce0ba3e42054311c1b5c2bb12e731d3cfcd0178"
+    },
+    {
+      "path": "evidence/providers/sincronizacao-0.3.png",
+      "bytes": 476251,
+      "sha256": "f6e5dbb0d94111720f1c5c8cc059955e93a670d9ab33db4f7ec8f8a10932a9a8"
+    },
+    {
+      "path": "evidence/providers/sincronizacao-0.3.txt",
+      "bytes": 4455,
+      "sha256": "d969d8e80e9ab23338b093b65240831729c6edc8d8ca430f95ffe41810518505"
+    }
+  ]
+}

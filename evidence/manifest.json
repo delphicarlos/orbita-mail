@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-03",
+  "version": "0.4.0",
+  "build": 4,
+  "architecture": "arm64",
+  "signature": "local ad-hoc; not notarized",
+  "canonical_repository": "/Volumes/nvme/projects/intellitouch/orbita-mail",
+  "branch": "main",
+  "tests": {
+    "xctest": 74,
+    "failures": 0,
+    "loopback_transport_checks": 16
+  },
+  "real_validation": {
+    "unread_counts": "confirmed on Microsoft and Google; inbox totals differ from loaded pages",
+    "folders": "controlled folder created on both accounts; Google custom folder navigation confirmed",
+    "signatures_rules_vacation": "native demo + fixtures; no real mail or auto-reply sent",
+    "additional_settings_consent": "pending user authorization"
+  },
+  "preserved_prior_package": "build/Orbita-Mac-arm64-0.3.0.zip",
+  "artifacts": [
+    {
+      "path": "build/Órbita.app/Contents/MacOS/OrbitaMail",
+      "bytes": 6513728,
+      "sha256": "dce9471b78e56b924f8b5898bc2e10deaf2206a4820255ab00c024444a71afe0"
+    },
+    {
+      "path": "build/Orbita-Mac-arm64.zip",
+      "bytes": 1786198,
+      "sha256": "4067814c608de8b29de0782eb84cb57c4d683df70013036efdd39b8e52a864df"
+    },
+    {
+      "path": "evidence/tests-organization.log",
+      "bytes": 19348,
+      "sha256": "9ec318962b8027d485b00f76ea52b149ce701633878f2fc202c9fdc333898568"
+    },
+    {
+      "path": "evidence/build-release-0.4.log",
+      "bytes": 281,
+      "sha256": "68e9d9427f184c29afbf1a3611f16d2c0c200d19206939afb920a29dac1d858e"
+    },
+    {
+      "path": "evidence/mail-wire-0.4.json",
+      "bytes": 2082,
+      "sha256": "2d1598ef9d1e1477d2dd48c66925910e3bddb2d638e8d52e71d4b2fa99d5720b"
+    },
+    {
+      "path": "evidence/mail-wire-organization.log",
+      "bytes": 26,
+      "sha256": "e3006a3018269bf1aed2d7fc170c125fe1cd906c49ba9cf87d1e45261d90bb44"
+    },
+    {
+      "path": "evidence/organization/assinatura-cadastrada-demonstracao.png",
+      "bytes": 190992,
+      "sha256": "2f26d65283477bacb070a8e038984d6047f522f8e6c1beda487dd6c1a1f9f623"
+    },
+    {
+      "path": "evidence/organization/assinatura-no-editor-demonstracao.png",
+      "bytes": 106915,
+      "sha256": "d449c54af9497db2a1a06a1baaa529aed9eb5e4e815fb8fdb1eec61127ef9754"
+    },
+    {
+      "path": "evidence/organization/assinatura-troca-conta.txt",
+      "bytes": 698,
+      "sha256": "7cdfeb88ef96aa67b0e9b490c39ee5a23caf0228fc31a07b50145738805545a6"
+    },
+    {
+      "path": "evidence/organization/assinaturas-tela-real.png",
+      "bytes": 163030,
+      "sha256": "7d54991d5f97c5e3baaf5458c4b64637fe8938754b33cafad202be2221b32897"
+    },
+    {
+      "path": "evidence/organization/barra-lateral-final.png",
+      "bytes": 148784,
+      "sha256": "4a7396fe053f70d5d992bf50b6cd4f5b732176b13e845b519133908d1f6a1a59"
+    },
+    {
+      "path": "evidence/organization/caixa-unificada-final.png",
+      "bytes": 148903,
+      "sha256": "bd221c47a181b4759e87d9935b0f1bb2db85e2cce7f9d590d293e7d7a9f66199"
+    },
+    {
+      "path": "evidence/organization/nao-lidos-conta-individual-final.txt",
+      "bytes": 1598,
+      "sha256": "bf9392ae9981e7933e04f14393258dc655595366cb63d6be350e9dff522c8a56"
+    },
+    {
+      "path": "evidence/organization/nao-lidos-final.txt",
+      "bytes": 774,
+      "sha256": "c9677269692af88d88b5f375b6ada31e88f236b897829d2440a1750a1e324358"
+    },
+    {
+      "path": "evidence/organization/nao-lidos-reais.png",
+      "bytes": 428320,
+      "sha256": "64f2e60e17d2caf18bec274e90e1a74d5cb14c9a8c6e9957d70f54319184d1ec"
+    },
+    {
+      "path": "evidence/organization/nao-lidos-reais.txt",
+      "bytes": 43901,
+      "sha256": "9ba1e5753429d61c7f88013caf3f0a2658661413b9ceefce27510c4a5758b7cf"
+    },
+    {
+      "path": "evidence/organization/pasta-google-criada.png",
+      "bytes": 186804,
+      "sha256": "f9492ed0143a9bbd405103473ef7a6774486bc594f986a3cb6b8928fc6c86694"
+    },
+    {
+      "path": "evidence/organization/pasta-google-navegacao-final.png",
+      "bytes": 88176,
+      "sha256": "5aa498f955cdafbb85a284d4dd68a5ed876e5c1aa8304905d5e13b2989ee0b0e"
+    },
+    {
+      "path": "evidence/organization/pasta-microsoft-criada.png",
+      "bytes": 175217,
+      "sha256": "7b69acd4ab801a8f7c67e1632710a32b1c18f804affd9b1b7d80232ae9ebec99"
+    },
+    {
+      "path": "evidence/organization/regra-demonstracao.png",
+      "bytes": 264948,
+      "sha256": "5e51dbd89b1c846d26e3904ccdcadb07ff336767df5fd249207de61934e41379"
+    },
+    {
+      "path": "evidence/organization/resposta-automatica-demonstracao.png",
+      "bytes": 220468,
+      "sha256": "31705b45c935f635dbb70af133e2dd065858ad991bca21044f6ff533cb3251ae"
+    },
+    {
+      "path": "evidence/organization/sincronizacao-final.png",
+      "bytes": 178038,
+      "sha256": "a6721d68037d831add98a77950e965fc7bda81b334a2c618c7f3ced536317f2f"
+    },
+    {
+      "path": "evidence/organization/sincronizacao-final.txt",
+      "bytes": 4496,
+      "sha256": "bc7340102e49145a7533a07f5c96d6bb2aadbca05b22d238e50c4b413e099483"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-03",
+  "version": "0.2.0",
+  "architecture": "arm64",
+  "tests": {
+    "xctest": 37,
+    "failures": 0,
+    "providers": "HTTP fixtures only",
+    "log": "tests-oauth.log"
+  },
+  "real_accounts_validated": true,
+  "real_mail_sent": true,
+  "real_invitations_answered": true,
+  "signature": "local ad-hoc",
+  "artifacts": [
+    {
+      "path": "/Volumes/nvme/projects/intellitouch/orbita-mail/build/Órbita.app/Contents/MacOS/OrbitaMail",
+      "bytes": 4165136,
+      "sha256": "c308f595e2b2401bd8479bf3f7d9bdf8b9690a87f9ebe14f97bac4f6dce2c316"
+    },
+    {
+      "path": "/Volumes/nvme/projects/intellitouch/orbita-mail/build/Orbita-Mac-arm64.zip",
+      "bytes": 1145825,
+      "sha256": "475e831c9da49fa4a980829f4fd7b01b453e221bf80731c2e552b79c27278c79"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "01-primeiro-uso.png",
+      "bytes": 72580,
+      "sha256": "bbbc6c482c1dc8513a6a00efa1235bf53edf00f2713ed6cfd2e7c36261f7b4ac"
+    },
+    {
+      "file": "02-email-multicontas.png",
+      "bytes": 172827,
+      "sha256": "0d31e86d9c7a175e55078ca98b04a9cf53fb094d7e27a75987b77ed6358bbd3c"
+    },
+    {
+      "file": "03-aceite-demonstracao.png",
+      "bytes": 134573,
+      "sha256": "9a33239b36712943bfc39339f92a926f63a30428431b38f8bbb1567c6fa66eca"
+    },
+    {
+      "file": "03-aceite-demonstracao.txt",
+      "bytes": 1243,
+      "sha256": "c0a48cd6a3eb54ca3ded9f143ef3e7457b79d514df966c81cc8459960de7111c"
+    },
+    {
+      "file": "04-tarefa-demonstracao.txt",
+      "bytes": 880,
+      "sha256": "9789f897c85d4b3b34ed1dbdbac0d0fd380c7b42b9e284b764ed7deb94a02916"
+    },
+    {
+      "file": "05-editor-demonstracao.png",
+      "bytes": 43463,
+      "sha256": "5712add6d065b32c7fca461b0875f008d4f49347a2075b6c8dcc42c38339b039"
+    },
+    {
+      "file": "06-agenda-unificada-final.png",
+      "bytes": 132352,
+      "sha256": "8dd34a31077cda8dbdcf08f916697d9183bd5f1b707beef727edc38a600573b8"
+    },
+    {
+      "file": "07-calendario-mensal.png",
+      "bytes": 123588,
+      "sha256": "80b41fd18d721c0b8b41010386fb779d4218bbc2a899dbe4eecc0f5e6944e5b8"
+    },
+    {
+      "file": "08-agenda-lista.png",
+      "bytes": 142034,
+      "sha256": "3d227ab96db520ed116f8287124ac289205f98e8c5951edd8f7fd30413c6aaa1"
+    },
+    {
+      "file": "09-calendario-diario.png",
+      "bytes": 140894,
+      "sha256": "9d04416663196cda9471fb355dd6c92fd428d992a316409d5f1c84af42921ec0"
+    },
+    {
+      "file": "10-tarefas-final.png",
+      "bytes": 99915,
+      "sha256": "1d7d58cb2e6c2f3674da77963234a85721e5f99c16f74e563970d58c489a6d27"
+    },
+    {
+      "file": "11-email-final.png",
+      "bytes": 175452,
+      "sha256": "1d20db4449527dd11d2bcf2b2f058d6259ba8af8b176cfcd099faec465c7d608"
+    },
+    {
+      "file": "12-configuracao-contas.png",
+      "bytes": 100484,
+      "sha256": "c88bbb54d75ebf04d10b79e069c11f8f69a39ce94bf7949cec6f3adb886d18e5"
+    },
+    {
+      "file": "13-agenda-entrega.png",
+      "bytes": 132671,
+      "sha256": "a64a4c34d271ddba43dfe33f6d78aba3d7ee31c6c1412d66d61d4a140effd59b"
+    },
+    {
+      "file": "13-agenda-entrega.txt",
+      "bytes": 5841,
+      "sha256": "d10e0a7b6a086dda5dba3a6e8c2bdb6d2c835378144030f88f567b3bbac5745c"
+    },
+    {
+      "file": "build-release.log",
+      "bytes": 190,
+      "sha256": "91663ccede70cffa4e377b47d4d4ce0a1d29192b1e2471839665972b6f2febd7"
+    },
+    {
+      "file": "test-results.log",
+      "bytes": 8008,
+      "sha256": "0ffcccb0de1d808e2d77bba4f08a85b8a18e769174c0f9c15bbd76a0484bb759"
+    },
+    {
+      "file": "tests-import.log",
+      "bytes": 9883,
+      "sha256": "a472f060a5a32e416e035e34b7c69cd9785b03358a5bc9ac89fd741fad023fbd"
+    },
+    {
+      "file": "tests-oauth.log",
+      "bytes": 9894,
+      "sha256": "1f58d8e7631b94590f638c0410a0f31a89317e66f5c8c7a7479a4f9eb7457b33"
+    }
+  ],
+  "local_database_counts": {
+    "contas": {
+      "account": 2,
+      "body": 1,
+      "configuration": 1,
+      "event": 10,
+      "imported-account": 3,
+      "mail": 80,
+      "source": 13,
+      "task": 22
+    },
+    "demonstracao": {
+      "account": 3,
+      "event": 5,
+      "mail": 6,
+      "seed-day": 1,
+      "source": 6,
+      "task": 3
+    }
+  },
+  "outlook_import": {
+    "file_import_ui_verified": true,
+    "pending_accounts": 1,
+    "authenticated_accounts": 2,
+    "direct_automation_verified": false,
+    "signatures_imported": 0
+  },
+  "oauth_setup": {
+    "google_project_created": "orbita-mail-intellitouch",
+    "microsoft_registration": "created; account connected",
+    "google_consent": "external testing; account connected",
+    "oauth_clients_finalized": true,
+    "google_apis": {
+      "gmail": "enabled; portal verified",
+      "calendar": "enabled; portal verified",
+      "tasks": "enabled; portal verified"
+    },
+    "microsoft_client_id": "4888d959-7d5f-4eb1-8dfe-a104c5cc8f69",
+    "google_desktop_client_created": true,
+    "google_test_users": 1,
+    "google_secret": "saved only in local Keychain after authorization"
+  },
+  "controlled_invitation": {
+    "created_via": "Outlook Calendar connector",
+    "accepted_via_orbita": true,
+    "organizer_status": "accepted; tentative and accepted transitions verified"
+  },
+  "oauth_loopback_fix": "accept handler registered before listener.start; local listener ready and app reached provider consent",
+  "real_validation": {
+    "date": "2026-11-03",
+    "timezone": "America/Fortaleza",
+    "accounts": 2,
+    "calendars": 4,
+    "task_lists": 9,
+    "mail_directions_received": 2,
+    "rsvp_direction": "both: Google attendee -> Microsoft organizer; Microsoft attendee -> Google organizer",
+    "tasks_completed_and_reopened": {
+      "microsoft": 1,
+      "google": 1
+    },
+    "restart_persistence": true,
+    "google_status": "Testing; 7-day refresh token lifetime",
+    "private_evidence": "oauth/real-validation.json",
+    "controlled_invitations_accepted": 2
+  }
+}
